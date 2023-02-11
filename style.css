@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 120vh;
+    margin: 80px;
+    background-image: url(./images/Moss.jpg);
+}
+
+.navbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.right-section {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    color: white;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.navbar li {
+    color: white;
+    list-style: none;
+}
+
+.right-section i {
+    color: white;
+}
+
+.play {
+    background-color: rgb(49, 134, 101);
+    color: white;
+    border-color: white;
+    border-radius: 30px;
+    height: 25px;
+    width: 20%;
+}
+
+.main-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section img {
+    height: 285px;
+}
+
+.text-section h1 {
+    color: white;
+    font-size: 100px;
+    margin-left: 20px;
+}
+
+.text-section h2 {
+    color: white;
+    font-size: 100px;
+    margin-left: 20px;
+    margin-left: 30px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 140px
+}
+
+.start-btn {
+    height: 70px;
+    width: 95px;
+    border-radius: 40px;
+    border-color: white;
+    color: white;
+    background-color: #1D4350;
+    margin-left: -140px;
+    font-size: 10px;
+}
+
+.main-section p {
+    width: 20px;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 175px;
+}
+
+.hero-section {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.hero-section img {
+    height: 10%;
+    width: 10%;
+}
+
+.hero-section hr {
+    width: 40px;
+}
+
+.super {
+    color: white;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 35px;
+}
+
+.section img {
+    height: 10%;
+    width: 20%;
+}
+
+.section h2 {
+    font-size: 15px;
+    color: white;
+}
+
+.image2 {
+    height: 5%;
+    width: 30%;
+}
+
+P {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:768px) {
+    .container {
+        height: 100%;
+        background-image: url(./images/Moss.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .list li {
+        display: none;
+    }
+    .play {
+        width: 100%;
+    }
+    .main-section {
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .home-text h1 {
+        font-size: 30px;
+    }
+    .image-section {
+        margin-left: 100px;
+        padding: 40px;
+    }
+    .hero-section {
+        padding: 0px 0px;
+        padding-right: 30px;
+        flex-direction: row;
+    }
+    .hero-section img {
+        width: 80%;
+    }
+    .section {
+        flex-direction: column-reverse;
+        padding: 20px;
+        padding-left: 30px;
+    }
+    .section span {
+        width: 100%;
+    }
+    .section img {
+        width: 100%;
+    }
+}
