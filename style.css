@@ -155,6 +155,12 @@ P {
     justify-content: center;
 }
 
+@media (max-width:1150px) {
+    right-section {
+        width: 80%;
+    }
+}
+
 @media (max-width:768px) {
     .container {
         height: 100%;
